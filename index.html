@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-      <link rel="stylesheet" href="css/all.css">
-      <style>
+    <title>Task 1</title>
+    <link rel="stylesheet" href="css/all.css">
+    <style>
         *{
             padding: 0;
             margin: 0;
+            box-sizing: border-box;
         }
         .container{
             width: 100%;
@@ -17,7 +18,37 @@
             grid-template-columns: auto auto auto;
             font-size: 4em;
         }
-      </style>
+
+        .figure{
+            display: flex;
+            justify-content: center;
+            background: transparent;
+            border: 6px solid;
+            border-image: linear-gradient(to right, #ff512f, #dd2476, #d5ff1c, rgb(62, 233, 39) ) 1;
+            animation: animate 2.5s ease-in infinite;
+            width: 60%;
+            height: auto;
+            margin: 1rem 2rem;
+            padding: 1.4rem;
+            transition: background 2s linear;
+        }
+
+        .figure:hover{
+            background: rgb(188, 205, 224);
+        }
+
+        figcaption{
+            font-family: sans-serif;
+            font-size: 2rem;
+            font-weight: 600;
+        }
+
+        @keyframes animate {
+            50%{
+                border-image: linear-gradient(360deg, #ff512f, #dd2476, #1c64ff) 1;
+            }
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -64,7 +95,9 @@
 
 
         <!-- Praise's section -->
-
+           <figure class="figure">
+            <figcaption>This is Praise's section</figcaption>
+           </figure>
 
 
         <!-- Gift's section -->
