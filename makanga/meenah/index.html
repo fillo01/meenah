@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <link rel="stylesheet" href="css/all.css">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100%;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            font-size: 4em;
+        }
+
+        .figure{
+            display: flex;
+            justify-content: center;
+            background: transparent;
+            border: 6px solid;
+            border-image: linear-gradient(to right, #ff512f, #dd2476, #d5ff1c, rgb(62, 233, 39) ) 1;
+            animation: animate 2.5s ease-in infinite;
+            width: 60%;
+            height: auto;
+            margin: 1rem 2rem;
+            padding: 1.4rem;
+            transition: background 2s linear;
+        }
+
+        .figure:hover{
+            background: rgb(188, 205, 224);
+        }
+
+        figcaption{
+            font-family: sans-serif;
+            font-size: 2rem;
+            font-weight: 600;
+        }
+
+        @keyframes animate {
+            50%{
+                border-image: linear-gradient(360deg, #ff512f, #dd2476, #1c64ff) 1;
+            }
+        }
+        .textarea{
+        border-radius: 20px;
+        border-width: 30px;
+        }
+
+        .button{
+         border-radius: 15px;
+         border-width: 20px;
+         width: 130px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Task 1</h2>
+    </header>
+
+    <section>
+        <!-- Debra's section -->
+
+
+
+        <!-- Dani's section -->
+
+
+
+        <!-- Makungu's section -->
+
+
+
+        <!-- Zai's section -->
+
+
+
+        <!-- Nyakenda's section -->
+        <form>
+            <textarea rows="3" cols="60" class="textarea"
+                placeholder="username..." required></textarea><br>
+      
+            <textarea rows="3" cols="60"  class="textarea"
+               placeholder="password..."  required ></textarea><br>
+          
+            <textarea  rows="6" cols="60" class="textarea"
+               placeholder="comment..."   required></textarea><br>
+              
+               <button class="button">submit</button>
+      
+          </form>
+
+
+
+        <!-- Filoo's section -->
+           <div class="container" style="display: grid; text-decoration: none; list-style-type :none;"
+               <ul>
+                <li><a href="#" class="fab fa-instagram" class="icon" style="text-decoration: none; color: rgb(182, 76, 93);"></a></li>
+                
+                <li><a href="#" class="fab fa-twitter" class="icon" style="text-decoration: none; color: rgb(63, 154, 228);"></a></li>
+
+                <li><a href="#" class="fab fa-youtube" class="icon" style="text-decoration: none; color: rgb(230, 47, 47);"></a></li>
+
+                <li><a href="#" class="fab fa-facebook" class="icon" style="text-decoration: none; color: rgb(49, 49, 211);"></a></li>
+
+                <li><a href="#" class="fab fa-tiktok" class="icon" style="text-decoration: none; background-color: black; color: rgb(238, 198, 198);"></a></li>
+
+                <li><a href="#" class="fab fa-whatsapp" class="icon" style="text-decoration: none; color: rgb(48, 170, 48);"></a></li>
+               </ul>
+           </div>
+
+
+        <!-- Praise's section -->
+           <figure class="figure">
+            <figcaption>This is Praise's section</figcaption>
+           </figure>
+
+
+        <!-- Gift's section -->
+
+
+
+    </section>
+</body>
+</html>
