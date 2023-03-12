@@ -19,7 +19,51 @@
         width: 100%;
         transform: translateX(30%);
         margin-bottom: 5em;}
-    
+        ::-webkit-input-placeholder{
+                color:white;
+             font-family:Georgia, 'Times New Roman', Times, serif;
+             font-size: 2vmax;
+             padding-left: 10px;
+             ;
+                          }
+         .form_f1{
+            background-color: black;
+            border-radius: 1.2rem;
+            opacity: 0.8;
+            width: 40%;
+            height: 40%;
+            margin-left: 30%;
+            position:fixed;
+            box-shadow: 0 3px 3px 4px rgba(0, 0, 0, 0.342);
+         }
+         #first_name,#surname,#nation,#email{
+            margin-top: 10px;
+            margin-left: 10%;
+            margin-right: 10%;
+          background-color: white;
+          background-color: black;
+            opacity: 0.85;
+            border-radius: 1rem;
+            padding: 10px;
+            min-width: 80%;
+            min-height: 40%;
+            
+         }
+         button{
+            padding: 12px;
+            margin-top: 12px;
+            margin-left: 10%;
+        
+            border-radius: 12px;
+            background-color:rgba(230, 222, 222, 0.23) ;
+            border-color: azure;
+         }
+         button:hover{
+            color:white;
+            border-color: white;
+            background-color: black;
+            
+         }
     
     
         
@@ -55,7 +99,15 @@
 
 
         <!-- Makungu's section -->
-
+   <div class="form_f1">
+        <form>
+<input type="text" placeholder="First name"id="first_name">
+<input type="text"placeholder="Surname"id="surname">
+<input type="text"placeholder="Nationality"id="nation">
+<input type="text"placeholder="email"id="email">
+<button>Submit</button>
+        </form>
+    </div>
 
 
         <!-- Zai's section -->
