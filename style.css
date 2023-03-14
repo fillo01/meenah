@@ -1,0 +1,42 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.debra{
+    width: 100%;
+    transform: translateX(40%);
+    padding-top: 10%;
+       
+}
+.img{
+    display: flex;
+    transform: translateX(10em);
+    margin-top: 13em;
+    width: 60%;
+
+}
+hr{
+    color: rgb(239, 10, 10);
+    width: 7em;
+    transform: translateX(70%);
+    color: rgb(211, 119, 119);
+    border-width: 0;
+    background-color: rgb(241, 100, 145);
+    height: 1.5px;
+    margin-top: 2em;
+}
+.work{
+    font-size: 2em;
+    font-family: sans-serif;
+    transform: translateX(2em);
+
+}
+.lorem{
+    transform: translateX(-7em);
+    color: rgba(0, 0, 0, 0.697);
+    font-size: 1.3em;
+    font-family: sans-serif;
+    padding-top: .8em;
+    
+}
