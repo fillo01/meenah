@@ -1,4 +1,4 @@
-*{
+ *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -89,8 +89,8 @@ hr{
     padding-top: .8em;
 }
  img:hover{
-    width:20% ;
-    height:7%;
-    border-radius:20px;
-    transition:width 7s,height 40s;
+    
+    opacity: .8;
+    
+    transform:scale(0.9);
     }
