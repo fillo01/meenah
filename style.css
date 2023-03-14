@@ -94,3 +94,47 @@ hr{
     
     transform:scale(0.9);
     }
+    .kinsella{
+        display: flex;
+        flex-direction: column;
+    }
+    .title{
+        font-size: 30px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        padding-left: 50%;
+        padding-bottom: 10px;
+    }
+    .s2{
+        color:#aaa;
+        padding-left :60px;
+        font-size: 20px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    }
+    .brand_raw1{
+        display: flex;
+        justify-content:space-around;
+        
+    }
+    .brand_raw2{
+        display:flex;
+        justify-content: space-around;
+        
+        
+    }
+    .hr{
+        color: rgb(239, 10, 10);
+    
+    color: rgb(211, 119, 119);
+    border-width: 0;
+    background-color: rgb(241, 100, 145);
+    height: 1.5px;
+    margin-top: 2em;
+    margin-left:50%;
+    
+    }
+    .image{
+        align-items: center;
+        flex-basis:28%;
+        
+    }
+    
