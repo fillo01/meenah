@@ -40,3 +40,8 @@ hr{
     padding-top: .8em;
     
 }
+ img:hover{
+    width:20% ;
+    height:7%;
+    border-radius:20px;
+    transition:width 7s,height 40s;}
