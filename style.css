@@ -94,7 +94,7 @@ hr{
     
     transform:scale(0.9);
     }
-    .kinsella{
+    .kinsella{ 
         display: flex;
         flex-direction: column;
     }
