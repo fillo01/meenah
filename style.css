@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.main-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    gap: 14px;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    color: aqua;
+}
+
