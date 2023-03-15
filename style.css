@@ -137,4 +137,10 @@ hr{
         flex-basis:28%;
         
     }
+
+    .footer{
+        background-color: black;
+        width: 100%;
+        height: 200px;
+    }
     
