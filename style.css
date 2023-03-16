@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+
 .main{
     width: 100%;
     align-items: center;
@@ -17,6 +20,7 @@
     padding-top: 1em;
     font-size: 20px;
     color: #837f7fec;
+    
 }
 .para2{
     padding-top: 16px;
@@ -55,14 +59,14 @@ h2{
 .debra{
     width: 100%;
     transform: translateX(40%);
-    padding-top: 10%;
+    padding-top: 8%;
        
 }
 .img{
     display: flex;
-    transform: translateX(10em);
-    margin-top: 13em;
-    width: 60%;
+    transform: translateX(9em);
+    margin-top: 9em;
+    width: 70%;
 
 }
 hr{
@@ -89,8 +93,114 @@ hr{
     padding-top: .8em;
 }
  img:hover{
+    width:20% ;
+    height:7%;
     
+    transition:width 7s,height 40s;
     opacity: .8;
     
     transform:scale(0.9);
     }
+
+
+
+.test{
+    position: relative;
+    background-image: url('img/testimonial-background.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    background-attachment: fixed;
+    
+    
+}
+
+.monials{
+    display: flex;
+    color: aliceblue;
+    justify-content: space-between;
+   
+    text-align: left;
+    padding-top: 2em;
+    
+    
+    
+    
+    
+    
+    
+}
+.wrapper{
+   padding-top: 5em;
+ 
+   background: rgba(4, 5, 5, 0.544);
+   height: 100%;
+
+}
+.item1{
+ display: flex;
+ color: antiquewhite;
+ justify-content: center;
+ font-size: 2em;
+
+}
+.img1,.img2,.img3{
+    border-radius: 60%;
+}
+
+    
+    
+
+    .kinsella{ 
+        display: flex;
+        flex-direction: column;
+    }
+    .title{
+        font-size: 30px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        padding-left: 50%;
+        padding-bottom: 10px;
+    }
+    .s2{
+        color:#aaa;
+        padding-left :60px;
+        font-size: 20px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    }
+    .brand_raw1{
+        display: flex;
+        justify-content:space-around;
+        
+    }
+    .brand_raw2{
+        display:flex;
+        justify-content: space-around;
+        
+        
+    }
+    .hr{
+        color: rgb(239, 10, 10);
+    
+    color: rgb(211, 119, 119);
+    border-width: 0;
+    background-color: rgb(241, 100, 145);
+    height: 1.5px;
+    margin-top: 2em;
+    margin-left:50%;
+    
+    }
+    .image{
+        align-items: center;
+        flex-basis:28%;
+        
+    }
+
+    .footer{
+        background-color: black;
+        width: 100%;
+        height: 200px;
+    }
+    .dani{
+        margin: 7em;
+    }
+ 
