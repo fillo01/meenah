@@ -4,6 +4,106 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: sans-serif;
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,.3),rgb(0,0,0,.7)),url(img/header-img.jpg);
+    background-size:cover;
+    background-position:center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav{
+    width: 100vw;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+nav ul.main-nav{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+ul.main-nav li{
+    list-style-type: none;
+    padding: 0 1.2rem;
+}
+
+ul.main-nav li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    transition: border-bottom 0.2s;
+}
+
+ul.main-nav li a:hover,
+ul.main-nav li a:active {
+	border-bottom:3px solid #ed07b7;
+}
+
+img.logo{
+    height: 120px;
+    width: auto;
+}
+
+.header-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header-text-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.header-text-box h1{
+    font-size: 6rem;
+    color: #fff;
+    font-weight: 200;
+    padding: .5rem 0;
+}
+
+.header-text-box h2{
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: #fff;
+    padding: .5rem 0;
+    font-weight: 100;
+}
+
+.header-box a{
+    width: 230px;
+    height: auto;
+    border-radius: 20px;
+    background: #ed07b7;
+    padding: .6rem 0;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.header-box a:hover{
+    background: #9e0f7d;
+}
 
 
 .main{
@@ -92,6 +192,8 @@ hr{
     font-family: sans-serif;
     padding-top: .8em;
 }
+
+/* Fix this issue */
  img:hover{
     width:20% ;
     height:7%;
