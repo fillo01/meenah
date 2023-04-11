@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="/style.css"> 
+     <link rel="stylesheet" href="/css/all.css">
     <title>Task 2</title>
    
 </head>
@@ -14,7 +15,14 @@
     <nav>
       <img src="/img/digisolve-logo.png" alt="Digisolve Logo" class="logo">
       <ul class="main-nav">
-          <li><a href="#home">Home</a></li>
+          <li><a href="#home" class="dropdown-menu">Home
+            <ul class="dropdown">
+              <li><i class="fab fa-twitter"></i> Service 1</li>
+              <li><i class="fab fa-discord"></i> Service 2</li>
+              <li><i class="fab fa-facebook"></i> Service 3</li>
+            </ul>
+          </a>
+            </li>
           <li><a href="#contact">Contact</a></li>
           <li><a href="#about">About</a></li>
       </ul>
@@ -209,5 +217,7 @@
            <p1>This webpage has been created for educational purposes by Nahid Akhter and Juann Galvan.</p1><br>
            <p2>You can feel free to use it and customie it to make your own webpages</p2>
 </div>
+
+<script src="script.js"></script>
 </body>
 </html>

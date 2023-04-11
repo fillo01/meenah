@@ -52,6 +52,34 @@ ul.main-nav li a:active {
 	border-bottom:3px solid #ed07b7;
 }
 
+/* Dropdown */
+ul.dropdown{
+    background: #fff;
+    color: #111;
+    position: absolute;
+}
+
+ul.dropdown li{
+    padding: 1rem;
+}
+
+ul.dropdown li:hover {
+    background: #e6e0e0;
+}
+
+/* icons */
+.fa-twitter{
+    color: #09c9eb ;
+}
+
+.fa-discord{
+    color: #280b79;
+}
+
+.fa-facebook{
+    color: #06159e;
+}
+
 img.logo{
     height: 120px;
     width: auto;
