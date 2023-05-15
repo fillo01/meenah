@@ -1,0 +1,25 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.nav-item{
+        display: flex;
+        display: inline-block;
+ } 
+ 
+ li{
+    padding-left: 2cm;
+    color: rgb(250, 110, 46);
+ }
+
+.img{
+    position: absolute;
+    left: 20cm;
+}
+@media(min-with: 768px) {
+        .News-input{
+            width: 50%;
+        }
+}
